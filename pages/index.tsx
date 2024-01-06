@@ -30,24 +30,23 @@ export default function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-            Kickstart your collaborative&nbsp;app
+          Groundbreaking Software, Bright Future
           </h1>
           <p className={styles.heroLead}>
-            Use the Liveblocks Starter Kit to build your document-based
-            collaborative app in&nbsp;minutes.
+          We are a pioneering software startup dedicated to developing innovative and cutting-edge software solutions that deliver novel and valuable experiences to users.
           </p>
         </div>
         <div className={styles.heroActions}>
           <Button icon={<SignInIcon />} onClick={() => signIn()}>
             Sign in
           </Button>
-          <LinkButton
+          {/* <LinkButton
             href="https://liveblocks.io/docs/guides/nextjs-starter-kit"
             target="_blank"
             variant="secondary"
           >
             Learn more
-          </LinkButton>
+          </LinkButton> */}
         </div>
       </Container>
       <Container className={styles.section}>
@@ -56,55 +55,50 @@ export default function Index() {
           <Feature
             description={
               <>
-                A collaborative whiteboard app with included share menu,
-                documents listing, users, groups, permissions, and more.
+               We are a pioneering software startup dedicated to developing innovative and cutting-edge software solutions to meet market demands.
               </>
             }
-            title="Liveblocks"
+            title="Pioneering Software Startup"
           />
           <Feature
             description={
               <>
-                Best practices followed, using a mixture of SSR and custom API
-                endpoints. Modify documents from both client and server.
+                Our team consists of highly experienced software professionals capable of transforming disruptive ideas into high-quality products.
               </>
             }
-            title="Next.js"
+            title="Team of Experienced Professionals"
           />
           <Feature
             description={
               <>
-                Adjust our reusable interface & design system to fit your needs.
+                We prioritize our customers, actively listening to feedback and continuously improving our products to meet their needs and expectations.
               </>
             }
-            title="User Interface"
+            title="Customer-Centric Approach"
           />
           <Feature
             description={
               <>
-                All custom client and server functions are fully typed, and easy
-                to update.
+                We relentlessly pursue innovation and creativity, continuously researching and developing unique software solutions that bring novel and valuable experiences to users.
               </>
             }
-            title="TypeScript"
+            title="Innovation and Creativity"
           />
           <Feature
             description={
               <>
-                Complete authentication, compatible with any NextAuth provider,
-                including GitHub, Google, Auth0, and many more.
+                We leverage the latest and most advanced technologies to develop our products, ensuring high performance, robust security, and scalability.
               </>
             }
-            title="NextAuth.js"
+            title="Cutting-Edge Technology"
           />
           <Feature
             description={
               <>
-                See data update live using the SWR (state-while-revalidate)
-                library.
+                We provide exceptional and dedicated customer support, promptly addressing inquiries and assisting customers throughout their product usage journey.
               </>
             }
-            title="SWR"
+            title="Dedicated Customer Support"
           />
         </div>
       </Container>
