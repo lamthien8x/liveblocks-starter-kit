@@ -30,11 +30,11 @@ export default function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-          Groundbreaking Software, Bright Future
+           Groundbreaking Software, Bright Future
           </h1>
           <p className={styles.heroLead}>
-          We are a pioneering software startup dedicated to developing innovative 
-          and cutting-edge software solutions that deliver novel and valuable experiences to users.
+           We are a pioneering software startup dedicated to developing innovative 
+           and cutting-edge software solutions that deliver novel and valuable experiences to users.
           </p>
         </div>
         <div className={styles.heroActions}>
@@ -56,8 +56,8 @@ export default function Index() {
           <Feature
             description={
               <>
-               We are a pioneering software startup dedicated to developing innovative 
-               and cutting-edge software solutions to meet market demands.
+                We are a pioneering software startup dedicated to developing innovative 
+                and cutting-edge software solutions to meet market demands.
               </>
             }
             title="Pioneering Software Startup"
@@ -65,7 +65,7 @@ export default function Index() {
           <Feature
             description={
               <>
-                Our team consists of highly experienced software professionals capable of
+                 Our team consists of highly experienced software professionals capable of
                  transforming disruptive ideas into high-quality products.
               </>
             }
@@ -74,7 +74,7 @@ export default function Index() {
           <Feature
             description={
               <>
-                We prioritize our customers, actively listening to feedback and continuously improving our products
+                 We prioritize our customers, actively listening to feedback and continuously improving our products
                  to meet their needs and expectations.
               </>
             }
@@ -83,7 +83,7 @@ export default function Index() {
           <Feature
             description={
               <>
-                We relentlessly pursue innovation and creativity, continuously researching and developing unique software solutions
+                 We relentlessly pursue innovation and creativity, continuously researching and developing unique software solutions
                  that bring novel and valuable experiences to users.
               </>
             }
@@ -92,7 +92,7 @@ export default function Index() {
           <Feature
             description={
               <>
-                We leverage the latest and most advanced technologies to develop our products,
+                 We leverage the latest and most advanced technologies to develop our products,
                  ensuring high performance, robust security, and scalability.
               </>
             }
@@ -101,7 +101,7 @@ export default function Index() {
           <Feature
             description={
               <>
-                We provide exceptional and dedicated customer support, promptly addressing inquiries
+                 We provide exceptional and dedicated customer support, promptly addressing inquiries
                  and assisting customers throughout their product usage journey.
               </>
             }
